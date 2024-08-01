@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDSC Chitkara University</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="facicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-logo">
+                <img src="Google Developer Students Club.png" alt="GDSC Logo" style="width: 300px;height: 50px; padding-top: 10px;">
+            </div>
+            <div class="menu-button">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="navbar-links">
+                <div class="dropdown-btn select">
+                    <div class="selected" data-default="About GDSC" data-about="About GDSC" data-leads="Leads" data-guidelines="Community Guidelines" data-blog="Blog" data-challenge="Solution Challenge">
+                      About GDSC
+                      <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="options">
+                      <div title="about-gdsc">
+                        <input id="about-gdsc" name="option" type="radio" checked />
+                        <label class="option" for="about-gdsc" data-txt="About GDSC"></label>
+                      </div>
+                      <div title="leads">
+                        <input id="leads" name="option" type="radio" />
+                        <label class="option" for="leads" data-txt="Leads"></label>
+                      </div>
+                      <div title="community-guidelines">
+                        <input id="community-guidelines" name="option" type="radio" />
+                        <label class="option" for="community-guidelines" data-txt="Community Guidelines"></label>
+                      </div>
+                      <div title="blog">
+                        <input id="blog" name="option" type="radio" />
+                        <label class="option" for="blog" data-txt="Blog"></label>
+                      </div>
+                      <div title="solution-challenge">
+                        <input id="solution-challenge" name="option" type="radio" />
+                        <label class="option" for="solution-challenge" data-txt="Solution Challenge"></label>
+                      </div>
+                    </div>
+                </div>
+                <button>Chapters</button>
+                <button>Upcoming Events</button>
+                <button class="login-btn">Log in</button>
+            </div>
+            <input placeholder="Search " class="input" name="text" type="text">
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img src="hero.jpg" alt="GDSC Chitkara" class="hero-image">
+        </section>
+        
+        <section class="hero-content">
+            <h1>Chitkara University - Chandigarh, India</h1>
+            <h2 style="color: black;">1188 Group Members</h2>
+            <div class="social-links">
+                <a href="https://in.linkedin.com/company/gdsc-ciet" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/gdsc_ciet/" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="mailto:cse.dsc@chitkara.edu.in" class="social-icon"><i class="fas fa-envelope"></i></a>
+            </div>
+        </section>
+
+        <nav class="section-nav">
+            <a href="#about">About</a>
+            <a href="#upcoming-events">Upcoming Events</a>
+            <a href="#past-events">Past Events</a>
+            <a href="#organizers">Organizers</a>
+            <a href="#photos">Photos</a>
+            <a href="#chapter-video">Video</a>
+        </nav>
+
+        <section id="about">
+            <h2>About</h2>
+            <p>Welcome to Developer Student Club at Chitkara University, Rajpura, Punjab. Google Developer Student Clubs (GDSC) are community groups for students from any academic background in their undergraduate or graduate term. By joining a GDSC, students build their professional and personal network, get access to Google Developer Resources, and work together to build solutions for local problems in a peer-to-peer learning environment.🔥</p>
+            <h3>What we do:</h3>
+            <ul>
+                <li>Hands-on coding workshops (Beginner and Experienced)</li>
+                <li>Build side projects</li>
+                <li>Compete in the Solution Challenge</li>
+                <li>Networking events</li>
+                <li>Google Cloud Study Jams</li>
+                <li>GDG / GDE expert talks</li>
+            </ul>
+            <h3>How to join:</h3>
+            <ol>
+                <li>Create a profile</li>
+                <li>Join the chapter</li>
+                <li>Get a confirmation email</li>
+                <li>Attend Events</li>
+            </ol>
+            <p>Email us at cse.dsc@chitkara.edu.in for questions and more information!</p>
+        </section>
+
+        <section id="upcoming-events">
+            <h2>Upcoming Events</h2>
+            <p>There are currently no upcoming events. Please check again soon.</p>
+        </section>
+
+        <section id="past-events">
+            <h2>Past Events</h2>
+            <div class="event-slider">
+                <div class="event-slide">
+                    <img src="EVENT1.jpg" alt="Event 1">
+                    <h3>Season of Solutions</h3>
+                    <p>Season of Solutions is a prestigious innovation challenge that invites participants to embark on a transformative journey of ideation, prototyping, and presentation.</p>
+                </div>
+                <div class="event-slide">
+                    <img src="event2.jpg" alt="Event 2">
+                    <h3>Google Cloud Arcade Facilitator Program</h3>
+                    <p>It's an Arcade Facilitator Program that provides a platform for all the students, and working professionals who will learn new cloud skills like computing, application development, big data & AI/ML and earn digital badges & points to use towards claiming swag prizes and Google Cloud goodies.</p>
+                </div>
+                <div class="event-slide">
+                    <img src="event3.jpg" alt="Event 3">
+                    <h3>Python HTTP API for use with GitHub Codespaces</h3>
+                    <p>Python HTTP API for use with GitHub Codespaces</p>
+                </div>
+                <div class="event-slide">
+                    <img src="event4.jpg" alt="Event 4">
+                    <h3>A gentle introduction to AI on Azure</h3>
+                    <p>A gentle introduction to AI on Azure</p>
+                </div>
+                <div class="event-slide">
+                    <img src="event5.jpg" alt="Event 5">
+                    <h3>JavaScript Portfolio Site with GitHub Codespaces</h3>
+                    <p>JavaScript Portfolio Site with GitHub Codespaces</p>
+                </div>
+                <div class="event-slide">
+                    <img src="EVENT1.jpg" alt="Event 6">
+                    <h3>30 Days Python</h3>
+                    <p>GDSC Quantum University is going to start the training for python for 30 Days .In this student will learn basic python to Advance including various libraries like NumPy, Pandas, Matplotlib etc. It is in collaboration with WebMinix.</p>
+                </div>
+            </div>
+            <button id="load-more-btn">Load More</button>
+        </section>
+
+        <section id="chapter-video">
+            <h2>Chapter Video</h2>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/1GVD9-arNfI?si=t0LeH86k5d4zULnt" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <button id="contact-us-btn">Contact Us</button>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#upcoming-events">Events</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="footer-social-links">
+                    <a href="https://facebook.com/googlefordevs" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="https://x.com/gdscwow" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="https://in.linkedin.com/company/gdsc-ciet" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/gdsc_ciet/" class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 GDSC Chitkara University. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
